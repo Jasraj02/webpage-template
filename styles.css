@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {font-family: Roboto, sans-serif;}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: space-around;
+    min-height:80vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    margin:0;
+    border:0;
+    flex: 0 1 auto;
+    
+}
+
+.header, .footer {
+    background-color:#1F2937;
+    color:white;}
+
+.right-header {
+    display:flex;
+    gap:10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin:0;
+    border:0;
+    flex: 0 1 auto;}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:0;
+    border:0;
+    flex: 0 1 auto;}
+
+
+
+
+
+/* Add a large padding-left and padding-right value to
+help make the website more centrally aligned 
+OR just center align everything using flexbox*/
