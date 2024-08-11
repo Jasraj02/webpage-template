@@ -12,9 +12,9 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding:20px;
+    padding:20px 50px 0 50px;
     margin:0;
     border:0;
     flex: 0 1 auto;   
@@ -57,7 +57,116 @@
     border:0;
     flex: 0 1 auto;}
 
+.section-1{
+    box-sizing: border-box;
+    display:flex;
+    background-color:#1F2937;
+    color:white;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:40px 50px 40px 50px;
+}
 
+
+h2 {font-style: strong;}
+
+
+.section-1 img {
+max-width:400px;
+max-height: 300px;
+margin-left: 40px;}
+
+button {
+    background-color: #3882F6;
+    border-radius: 25px;
+    border:0;
+    padding: 5px 15px;
+    color:white;
+}
+
+
+
+.s2-all-boxes {
+    display:flex;
+    justify-content: space-between;
+    padding:20px 50px 40px 50px;
+    gap:40px;
+    align-items: flex-start;
+    
+}
+
+.s2-container {
+    min-height: auto;
+    min-width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.s2-container img {
+    border:#3882F6 3px solid;
+    border-radius: 10px;
+    padding:5px;
+    min-height: auto;
+    min-width: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.section-2 h3 {text-align: center;
+margin-top:40px;}
+
+.s2-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding:40px 50px 40px 50px;
+}
+
+.section-3 .quote {
+    font-size: 26px ;
+    font-family: "light italic" , sans-serif;
+    color: #1F2937;
+}
+
+.section-3 .author {
+    text-align: right;
+}
+
+.section-4 {
+    color:white;
+    padding:40px 50px 40px 50px;
+}
+
+.section-4  button {
+    border:white 1px solid;
+    display:inline-block;}
+
+.section-4 .s4-end {
+    background-color: #3882F6;
+    padding:10px 30px;
+    box-sizing: border-box;
+    border-radius:25px;
+}
+
+.s4-signup {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 h4 {font-size: 20px;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
 
 
 
