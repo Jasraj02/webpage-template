@@ -36,7 +36,7 @@
 
 .right-header {
     display:flex;
-    gap:10px;
+    gap:20px;
 }
 
 .footer {
@@ -92,7 +92,6 @@ button {
     padding:20px 50px 40px 50px;
     gap:40px;
     align-items: flex-start;
-    
 }
 
 .s2-container {
@@ -107,24 +106,27 @@ button {
     margin: 0;
 }
 
+
 .s2-container img {
-    border:#3882F6 3px solid;
+    border: #3882F6 3px solid;
     border-radius: 10px;
-    padding:5px;
-    min-height: auto;
-    min-width: auto;
-    max-width: 150px;
-    max-height: 150px;
+    padding: 5px;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; /* Ensure the image covers the entire area without distorting */
+    margin: 0;
 }
 
 .section-2 h3 {text-align: center;
 margin-top:40px;}
 
-.s2-container img {
+/* .s2-container img {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+} */
+
+.s2-text {flex:1 1 0}
 
 .section-3 {
     background-color: #E5E7EB;
